@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+li,
+a,
+button {
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+h1 {
+    font-size: 40px;
+    color: rgba(0, 136, 169, 1);
+}
+
+.y {
+    list-style: none;
+}
+
+h2 {
+    color: rgba(0, 136, 169, 1);
+    font-family: cursive;
+    background-color: white;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+h3 {
+    color: rgba(0, 136, 169, 1);
+    font-family: cursive;
+    font-size: 15px;
+}
+
+h5 {
+    color: white;
+}
+
+h5:hover {
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
+}
+
+span {
+    color: white;
+}
+
+H6 {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+h6:hover {
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
+}
+
+nav ol a {
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+nav ol a:hover {
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
+}
+
+.oo {
+    padding: 0px 12px;
+    background-color: white;
+    border-radius: 360px;
+    list-style: none;
+}
+
+.oo:hover {
+    background-color: #0088a9;
+    transition: all 0.9s ease 0s;
+}
+
+@media(max-width: 00px) {
+    header {
+        display: inline-block;
+    }
+}
